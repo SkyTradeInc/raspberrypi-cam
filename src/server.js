@@ -6,7 +6,7 @@ const cors = require('cors')
 const logger = require('./components/logger')
 const app = express()
 
-const port = process.env.SERVER_PORT || 80
+const port = process.env.SERVER_PORT || 9090
 
 const server = app.listen(port, () => {
   app.use(express.json());
